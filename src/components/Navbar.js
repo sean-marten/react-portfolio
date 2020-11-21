@@ -5,6 +5,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import { Link } from "react-router-dom";
+import Resume from "../assets/resume/Sean Marten Software Engineer Resume 01September2020.pdf";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -41,6 +42,21 @@ export default function ButtonAppBar() {
           <Button to="/contact" component={Link} color="inherit">
             Contact
           </Button>
+          <a
+            style={{ textDecoration: "none", color: "white" }}
+            href="https://www.linkedin.com/in/stmarten/"
+          >
+            <Button color="inherit">LinkedIn</Button>
+          </a>
+          <a
+            style={{ textDecoration: "none", color: "white" }}
+            href="https://github.com/sean-marten"
+          >
+            <Button color="inherit">Github</Button>
+          </a>
+          <a style={{ textDecoration: "none", color: "white" }} href={Resume}>
+            <Button color="inherit">Resume</Button>
+          </a>
         </Toolbar>
       </AppBar>
     </div>

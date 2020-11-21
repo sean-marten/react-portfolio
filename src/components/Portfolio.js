@@ -9,7 +9,9 @@ import PasswordGenerator from "../assets/password-generator.jpg";
 import ReadmeGenerator from "../assets/readme-generator.png";
 import SoftwareQuiz from "../assets/software-quiz.jpg";
 import WeatherDashboard from "../assets/weather-dashboard.png";
+import HypeType from "../assets/typing.png";
 import { Grid } from "@material-ui/core";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -20,11 +22,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "50px",
   },
 }));
+
 export default function Portfolio() {
   const classes = useStyles();
   return (
     <Container className={classes.root}>
-      <h1 className={classes.header}>Personal Portfolio</h1>
+      <h1 className={classes.header}>Software Portfolio</h1>
       <br />
       <br />
       <Grid
@@ -90,6 +93,13 @@ export default function Portfolio() {
             title="Weather Dashboard"
             img={WeatherDashboard}
             link={"https://sean-marten.github.io/the-weather-outside/"}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4}>
+          <PorftolioCard
+            title="Hype Type"
+            img={HypeType}
+            link={"https://hype-type.herokuapp.com/"}
           />
         </Grid>
       </Grid>
