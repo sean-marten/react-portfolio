@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/react-portfolio/static/js/main.a1d65141.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a1d65141.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.b49fe82a.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b49fe82a.js.map",
+    "static/js/2.32cf598a.chunk.js": "/react-portfolio/static/js/2.32cf598a.chunk.js",
+    "static/js/2.32cf598a.chunk.js.map": "/react-portfolio/static/js/2.32cf598a.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/js/2.32cf598a.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.32cf598a.chunk.js.LICENSE.txt",
+    "static/media/Sean Marten Software Engineer Resume 01September2020.2b2edfc3.pdf": "/react-portfolio/static/media/Sean Marten Software Engineer Resume 01September2020.2b2edfc3.pdf",
+    "static/media/clapper-board.7418565c.png": "/react-portfolio/static/media/clapper-board.7418565c.png",
+    "static/media/day-planner.7a9375e8.png": "/react-portfolio/static/media/day-planner.7a9375e8.png",
+    "static/media/note-taker.025f9f15.png": "/react-portfolio/static/media/note-taker.025f9f15.png",
+    "static/media/password-generator.ba1841d3.jpg": "/react-portfolio/static/media/password-generator.ba1841d3.jpg",
+    "static/media/readme-generator.bea4b350.png": "/react-portfolio/static/media/readme-generator.bea4b350.png",
+    "static/media/sean-marten.745f0cd4.jpg": "/react-portfolio/static/media/sean-marten.745f0cd4.jpg",
+    "static/media/software-quiz.02ceda31.jpg": "/react-portfolio/static/media/software-quiz.02ceda31.jpg",
+    "static/media/typing.a696134d.png": "/react-portfolio/static/media/typing.a696134d.png",
+    "static/media/weather-dashboard.38b4bee8.png": "/react-portfolio/static/media/weather-dashboard.38b4bee8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b49fe82a.js",
+    "static/js/2.32cf598a.chunk.js",
+    "static/js/main.a1d65141.chunk.js"
+  ]
+}
